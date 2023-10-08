@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* /::::::::::::::::::::::: HEADER :::::::::::::::::::::::/*/
+
+header {
+    background-color: #343A40;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo-home span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    padding: 5px;
+}
+
+.texto-logo {
+    font-size: 15px;
+}
+
+nav .menu-header span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.la-conferencia {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-gris {
+    text-decoration: none;
+    color: grey;
+}
+
+.comprar {
+    text-decoration: none;
+    color: #27A746;
+}
+
+
+
+/* /::::::::::::::::::::::: MAIN :::::::::::::::::::::::/*/
+
+main {
+    width: 100%;
+}
+
+/* /::::::::::::: Conferencia :::::::::::::/*/
+
+.conferencia {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.conferencia img {
+    width: 100%;
+    align-content: center;
+}
+
+.conferencia .texto-conferencia {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.conferencia .texto-conferencia h2 {
+    font-size: 2.5rem;
+}
+
+.conferencia .texto-conferencia p {
+    font-size: 1rem;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.button-orador {
+    background-color: rgba(0, 0, 0, 30%);
+    border-color: white;
+    border-radius: 15%;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.button-comprar {
+    background-color: #27A746;
+    border-radius: 15%;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+/* /::::::::::::: Oradores :::::::::::::/*/
+
+.titulo-oradores {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.box-3-oradores {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px;
+       
+}
+
+.oradores {
+    padding: 5px;
+    margin: 45px;
+}
+
+.box-3-oradores .oradores img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.box-3-oradores .oradores span {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.javascript {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.react {
+    background-color: #11a0b5 ;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.negocios {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.startups {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 15px;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 20px;  
+    padding: 5px;  
+}
+
+h5 {
+    font-size: 18px; 
+    padding: 5px;    
+}
+
+p {
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+/* /::::::::::::: Lugar y Fecha :::::::::::::/*/
+
+.lugar-y-fecha {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.lugar-y-fecha .img-playa {    
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}
+
+.lugar-y-fecha .img-playa img {
+    height: 100%;
+    overflow: hidden;
+}
+
+.lugar-y-fecha .fecha {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+    background-color: #343A40;    
+    text-align: left;
+    line-height: 1.5;
+    padding: 5%;
+}
+
+.lugar-y-fecha .fecha h3 {
+    color: white;
+}
+
+.lugar-y-fecha .fecha p {
+    color: white;
+}
+
+.lugar-y-fecha .fecha button {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+
+/* /::::::::::::: Formulario Orador :::::::::::::/*/
+
+.formulario {    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* /::::::::::::::::::::::: FOOTER :::::::::::::::::::::::/*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1C3845;
+    padding: 15px;
+    margin: 25px 25px;
+    box-sizing: border-box;        
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
